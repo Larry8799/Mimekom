@@ -35,10 +35,9 @@
   margin-bottom: 2vw !important;
 }
 #Main .line {
-  margin-top: 2vw;
-  border: #e4e4e4 1px;
-  border-style: solid;
+  background-color: white;
   width: 100%;
+  height: 1px;
 }
 #Main .return {
   text-align: center;
