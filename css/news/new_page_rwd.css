@@ -38,6 +38,9 @@
     height: 50vw;
     margin: 3vw 0;
   }
+  #Main .yt-video {
+    height: 50vw;
+  }
   #Main .return .xl-text {
     margin: 6vw 18vw;
   }

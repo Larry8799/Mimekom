@@ -1,0 +1,111 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+#mainNav {
+  background-color: #022142;
+}
+
+#Main {
+  background-image: url("../../img/homepage/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 10vw;
+}
+#Main p {
+  margin-bottom: 0;
+}
+#Main .title {
+  color: #022142;
+  font-weight: bold;
+  margin: 2vw 0;
+}
+#Main .subtitle {
+  background: linear-gradient(90deg, #022142 10px, #ececec 10px);
+  padding: 1vw 2.5vw;
+  margin-top: 2vw;
+}
+#Main .icon {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 2.5vw;
+}
+#Main .icon1 {
+  background-image: url("../../img/free-trial/icon1.png");
+  width: 100%;
+  height: 10vw;
+}
+#Main .icon2 {
+  background-image: url("../../img/free-trial/icon2.png");
+  width: 100%;
+  height: 10vw;
+}
+#Main .icon3 {
+  background-image: url("../../img/free-trial/icon3.png");
+  width: 4vw;
+  height: 4vw;
+  margin-bottom: 4vw;
+}
+#Main .icon1,
+.icon2,
+.icon3 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#Main .text {
+  display: flex;
+  align-items: center;
+  margin: 1vw 0;
+}
+#Main .b-dot {
+  background-color: #022142;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 0.75vw;
+  display: inline-block;
+}
+#Main .steps .lg-text {
+  margin-left: 2vw;
+  display: inline-block;
+}
+#Main .trial {
+  margin: 5vw 0;
+  text-align: center;
+}
+#Main .trial-btn {
+  background-color: #c9ac82;
+  padding: 1.7vw 10vw;
+  color: white;
+}
+#Main .question {
+  background-color: rgb(230, 230, 230);
+  border: #8d8d8d 1px;
+  border-style: solid;
+  margin-top: 1vw;
+  padding: 0 2vw;
+  width: 100%;
+  height: 6vw;
+}
+#Main .question p {
+  display: inline-block;
+  line-height: 6vw;
+}
+#Main .d-arrow {
+  background-image: url("../../img/free-trial/icon4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 3vw;
+  height: 3vw;
+  margin-top: 1.5vw;
+  display: inline-block;
+  float: right;
+}
+#Main .answer {
+  border: #8d8d8d 1px;
+  border-style: none solid solid solid;
+  padding: 1vw 2vw;
+}

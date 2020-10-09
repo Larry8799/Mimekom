@@ -1,0 +1,18 @@
+/* @media all and (max-width:1500px){
+}*/
+
+/* @media all and (max-width:1300px) and (orientation: portrait){
+} */
+
+@media all and (max-width: 900px) {
+  .md-title {
+    font-size: 2rem;
+  }
+}
+
+/* @media all and (max-width:767px){
+}
+@media all and (max-width:539px){
+} */
+/* @media all and (min-width:1501px){
+} */
