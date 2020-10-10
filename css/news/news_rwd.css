@@ -60,6 +60,7 @@
   }
   #Main .block {
     padding: 0;
+    height: 30vw;
   }
   #Main .thumbnail {
     background-size: cover;
@@ -82,9 +83,22 @@
     line-height: 6vw;
   }
 }
+@media all and (max-width: 680px) {
+  #Main .block {
+    height: 35vw;
+  }
+}
+@media all and (max-width: 600px) {
+  #Main .block {
+    height: 38vw;
+  }
+}
 @media all and (max-width: 539px) {
   #Title {
     margin-top: 18vw;
+  }
+  #Main .block {
+    height: 40vw;
   }
 }
 /* @media all and (min-width:1501px){
