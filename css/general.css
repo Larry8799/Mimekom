@@ -44,7 +44,9 @@ body {
   display: inline-block;
 }
 #Footer .right-stuff {
-  float: right;
+  position: relative;
+  bottom: 8vw;
+  right: 2vw;
   text-align: right;
   margin: 2vw 2vw 0 0;
   opacity: 60%;
