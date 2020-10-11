@@ -89,6 +89,11 @@ function newLi(s) {
     m_content.setAttribute("class", "md-text demo-text-m")
     m_content.innerHTML = contentPreprocess(s).substring(0, 70) + '...'
     texts.appendChild(m_content)
+    // mobile-version content mini demo
+    var mini_content = document.createElement("p")
+    mini_content.setAttribute("class", "md-text demo-text-mini")
+    mini_content.innerHTML = contentPreprocess(s).substring(0, 40) + '...'
+    texts.appendChild(mini_content)
     return node
 }
 

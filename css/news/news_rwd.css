@@ -88,17 +88,33 @@
     height: 35vw;
   }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 620px) {
   #Main .block {
-    height: 38vw;
+    height: 40vw;
   }
 }
 @media all and (max-width: 539px) {
   #Title {
     margin-top: 18vw;
   }
+  #Main .demo-text-m {
+    display: none;
+  }
+  #Main .demo-text-mini {
+    display: block;
+  }
+}
+@media all and (max-width: 440px) {
+  #Main .md-title {
+    font-size: 2.3rem;
+  }
+  #Main .md-text {
+    font-size: 1.35rem;
+  }
+}
+@media all and (max-width: 361px) {
   #Main .block {
-    height: 40vw;
+    height: 43vw;
   }
 }
 /* @media all and (min-width:1501px){

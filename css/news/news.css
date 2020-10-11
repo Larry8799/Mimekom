@@ -88,6 +88,9 @@
 #Main .demo-text-m {
   display: none;
 }
+#Main .demo-text-mini {
+  display: none;
+}
 #Main .block-title {
   font-weight: bold;
 }
