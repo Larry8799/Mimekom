@@ -215,7 +215,7 @@
   height: 50vw;
 }
 #Feature .block1 .block .phone1 {
-  background-image: url("../../img/homepage/phone2.png");
+  background-image: url("../../img/homepage/phone2.gif");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 7vw;
@@ -225,7 +225,7 @@
   display: inline-block;
 }
 #Feature .block1 .block .phone2 {
-  background-image: url("../../img/homepage/phone2.png");
+  background-image: url("../../img/homepage/phone2.gif");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 7vw;
