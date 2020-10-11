@@ -1,0 +1,105 @@
+/* @media all and (max-width:1500px){
+}
+
+@media all and (max-width:1300px){
+} */
+
+/* @media all and (max-width: 900px) {
+} */
+
+@media all and (max-width: 767px) {
+  /* for mobile */
+  .lg-title {
+    font-size: 3.5rem;
+  }
+  .md-title {
+    font-size: 2.5rem;
+  }
+  .sm-title {
+    font-size: 1.7rem;
+  }
+  .lg-text {
+    font-size: 1.6rem;
+  }
+  .md-text {
+    font-size: 1.5rem;
+  }
+  #Title {
+    height: 40vw;
+    margin-top: 13vw;
+    padding-top: 15vw;
+  }
+  #Main {
+    text-align: center;
+    padding: 1vw 3vw;
+  }
+  #Main .demo-text {
+    display: none;
+  }
+  #Main .demo-text-m {
+    display: block;
+    letter-spacing: 1px;
+  }
+  #Main .block-title {
+    display: none;
+  }
+  #Main .block-title-m {
+    display: block;
+  }
+  #Main #search {
+    margin: 3vw 0;
+    padding: 5px 2rem;
+    width: 70vw;
+    height: 7vw;
+    color: white;
+    font: 3vw "Roboto";
+    border-radius: 3.5vw;
+  }
+  #Main #last-update {
+    display: none;
+  }
+  #Main .block {
+    padding: 0;
+    height: 30vw;
+  }
+  #Main .thumbnail {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 100%;
+  }
+  #Main .texts {
+    margin: 2vw 3vw;
+  }
+  #Main .block-date {
+    margin-bottom: 1vw !important;
+  }
+  #Main .page-btn {
+    margin: 5vw 1vw;
+    width: 6vw;
+    height: 6vw;
+    font: 3vw "Roboto";
+    line-height: 6vw;
+  }
+}
+@media all and (max-width: 680px) {
+  #Main .block {
+    height: 35vw;
+  }
+}
+@media all and (max-width: 600px) {
+  #Main .block {
+    height: 38vw;
+  }
+}
+@media all and (max-width: 539px) {
+  #Title {
+    margin-top: 18vw;
+  }
+  #Main .block {
+    height: 40vw;
+  }
+}
+/* @media all and (min-width:1501px){
+} */

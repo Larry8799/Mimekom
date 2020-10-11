@@ -1,0 +1,77 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+#Title {
+  background-image: url("../../img/faq/faq_bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25vw;
+  padding-top: 10vw;
+  text-align: center;
+}
+#Title .lg-title {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+#Title .sm-title {
+  color: #c9ac82;
+}
+
+#Main {
+  background-image: url("../../img/faq/bg1.png");
+  background-repeat: repeat;
+  width: 100%;
+  padding: 3vw 10vw;
+}
+#Main .q-cat {
+  font-weight: bold;
+  color: #253361;
+}
+#Main .faq {
+  background: linear-gradient(90deg, #c9ac82 15px, white 15px);
+  width: 100%;
+  color: black;
+}
+#Main .fa {
+  color: #c9ac82;
+}
+#Main .item {
+  margin: 2vw 0vw 2vw 2vw;
+}
+#Main .item .question {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+#Main .item p {
+  margin-bottom: 0;
+}
+#Main .item .question .fa.fa-minus {
+  display: none;
+}
+#Main .item.jquery-accordion-active .fa.fa-minus {
+  display: block;
+}
+#Main .item.jquery-accordion-active .fa.fa-plus {
+  display: none;
+}
+#Main .item .answer {
+  padding: 15px;
+  padding-bottom: 5vh;
+  display: none;
+}
+#Main .item .faq-img {
+  background-image: url("../../img/faq/demo_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 27%;
+  height: 30vw;
+  margin: 2vw 2% 0 0;
+  display: inline-block;
+}

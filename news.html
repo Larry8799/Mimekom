@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Android download</title>
+	<title>Latest news</title>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/hamburgers.css">
 	<link rel="stylesheet" href="css/scrolling-nav.css">
 	<link rel="stylesheet" href="css/general.css">
-	<link rel="stylesheet" type="text/css" href="css/download/android-dl.css">
+	<link rel="stylesheet" type="text/css" href="css/news/news.css">
 	<link rel="stylesheet" type="text/css" href="css/font_rwd.css">
 	<link rel="stylesheet" type="text/css" href="css/general_rwd.css">
-	<link rel="stylesheet" type="text/css" href="css/download/android-dl_rwd.css">
+	<link rel="stylesheet" type="text/css" href="css/news/news_rwd.css">
+	<div id="custom-thumb"></div>
 </head>
 
 <body>
 	<!-- navbar -->
-	<nav id="mainNav" class="navbar navbar-expand-md fixed-top navtop" style="display: none;">
+	<nav id="mainNav" class="navbar navbar-expand-md fixed-top navtop">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#"><img class="nav-logo" src="img/logo.png"></a>
-			<button class="navbar-toggler hamburger hamburger--collapse" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="hamburger_icon">
+			<a class="navbar-brand js-scroll-trigger" href="index.html"><img class="nav-logo" src="img/logo.png"></a>
+			<button class="navbar-toggler hamburger hamburger--collapse" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation" id="hamburger_icon">
 				<span class="hamburger-box navbar-toggler-icon">
 					<span class="hamburger-inner"></span>
 				</span>
@@ -27,94 +32,87 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto trans" id="nav-dropdown">
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger md-text" href="index.html">關於我們</a>
+						<a class="nav-link md-text" href="index.html#Information">關於我們</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger md-text"  href="#">特色功能</a>
+						<a class="nav-link md-text" href="index.html#Feature">特色功能</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger md-text" href="#">最新消息</a>
+						<a class="nav-link md-text" href="index.html#Contact-us">聯絡我們</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger md-text" href="#">聯絡我們</a>
+						<a class="nav-link  md-text" href="news.html">最新消息</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link md-text" href="faq.html">常見問題</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger md-text" href="#">常見問題</a>
+						<a class="nav-link nav-link-btn md-text" href="free.html" target="_blank">免費體驗</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link nav-link-btn js-scroll-trigger md-text" href="#" target="_blank">免費體驗</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle nav-btn-custom md-text" id="dropdownMenuButton"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">繁體中文
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item md-text" href="#" style="color: #c9ac82;">繁體中文</a>
+							<a class="dropdown-item md-text" href="#">日本語</a>
+							<a class="dropdown-item md-text" href="#">English</a>
+						</div>
 					</li>
 				</ul>
 			</div>
 		</div>
-    </nav>
-    <ul class="contacts">
-        <!-- Add text to the data-index attribute to enable full-text search -->
-        <!-- Don't forget to lowercase it to make search case-insensitive -->
-        <li class="searchable" data-index="onabednarschamberger.frank@wuckert.com1-265-479-1196x714">
-          <dl>
-            <dt>First Name</dt><dd>你</dd>
-            <dt>Last Name</dt><dd>Bednar</dd>
-            <dt>Email</dt><dd>schamberger.frank@wuckert.com</dd>
-            <dt>Phone</dt><dd>1-265-479-1196x714</dd>
-          </dl>
-        </li>
-        <li class="searchable" data-index="newtoncronintorphy.dorothea@gmail.com(121)644-5577">
-          <dl>
-            <dt>First Name</dt><dd>Newton</dd>
-            <dt>Last Name</dt><dd>Cronin</dd>
-            <dt>Email</dt><dd>torphy.dorothea@gmail.com</dd>
-            <dt>Phone</dt><dd>(121)644-5577</dd>
-          </dl>
-        </li>
-        <!-- add as much data as you want -->
-      </ul>
+	</nav>
+	<div id="Title">
+		<div class="text">
+			<p class="lg-title">最新消息</p>
+			<p class="sm-title">Breaking News</p>
+		</div>
+	</div>
+	<!-- main content -->
+	<div id="Main">
+		<input type="text" placeholder="搜尋文章標題" id="search">
+		<p id="last-update" class="md-text"></p>
+		<ul id="myUl">
+		</ul>
+		<div id="Change-page">
+		</div>
+	</div>
 	<!-- footer -->
-	<div id="Footer" style="display: none;">
+	<div id="Footer">
 		<div class="contact-btns">
-			<a class="lg-text footer-btn" href="#">關於我們</a>
-			<a class="lg-text footer-btn" href="#">特色功能</a>
-			<a class="lg-text footer-btn" href="#">最新消息</a>
-			<a class="lg-text footer-btn" href="#">聯絡我們</a>
-			<a class="lg-text footer-btn" href="#">常見問題</a>
+			<a class="lg-text footer-btn" href="index.html#Information">關於我們</a>
+			<a class="lg-text footer-btn" href="index.html#Feature">特色功能</a>
+			<a class="lg-text footer-btn" href="index.html#Contact-us">聯絡我們</a>
+			<a class="lg-text footer-btn" href="news.html">最新消息</a>
+			<a class="lg-text footer-btn" href="faq.html">常見問題</a>
 		</div>
 		<div class="right-stuff">
 			<div class="icon1"></div>
 			<div class="icon2"></div>
 			<p class="md-text">
-				隱私權  |  服務條款<br>
-				© 2020 Taisys technologies CO., Ltd 
+				隱私權 | 服務條款<br>
+				© 2020 Taisys technologies CO., Ltd
 			</p>
 			<p class="sm-title mobile">
-				隱私權  |  服務條款<br>
-				© 2020 Taisys technologies CO., Ltd 
+				隱私權 | 服務條款<br>
+				© 2020 Taisys technologies CO., Ltd
 			</p>
 		</div>
 	</div>
-    <input type="text" placeholder="search" id="search">
-    <style id="search_style"></style>
-    <script type="text/javascript">
-    var searchStyle = document.getElementById('search_style');
-    document.getElementById('search').addEventListener('input', function() {
-      if (!this.value) {
-        searchStyle.innerHTML = "";
-        return;
-      }
-      // look ma, no indexOf!
-      searchStyle.innerHTML = ".searchable:not([data-index*=\"" + this.value.toLowerCase() + "\"]) { display: none; }";
-      // beware of css injections!
-    });
-    </script>
 	<!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-    <!-- for search -->
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
+	<!-- Custom JavaScript for this theme -->
+	<script src="js/scrolling-nav.js"></script>
+	<!-- for search -->
+	<script src="js/data.js"></script>
+	<script src="js/search.js"></script>
 </body>
+
 </html>

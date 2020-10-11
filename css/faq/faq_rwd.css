@@ -1,0 +1,35 @@
+/* @media all and (max-width:1500px){
+}
+
+@media all and (max-width:1300px){
+} */
+
+/* @media all and (max-width: 900px) {
+} */
+
+@media all and (max-width: 767px) {
+  /* for mobile */
+  #Title {
+    height: 40vw;
+    margin-top: 13vw;
+    padding-top: 15vw;
+  }
+
+  #Main .faq {
+    background: linear-gradient(90deg, #c9ac82 10px, white 10px);
+  }
+  #Main .item .faq-img {
+    width: 100%;
+    height: 100vw;
+    background-position: center;
+    margin: 4vw 0 0 0;
+    display: inline-block;
+  }
+}
+@media all and (max-width: 539px) {
+  #Title {
+    margin-top: 18vw;
+  }
+}
+/* @media all and (min-width:1501px){
+  } */
