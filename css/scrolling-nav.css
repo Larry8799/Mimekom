@@ -85,12 +85,14 @@ nav > .container {
 
 /* medias */
 @media (max-width: 900px) {
+  nav > .container {
+    padding-left: 1%;
+  }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0;
     padding-right: 0;
   }
 }
-
 @media (max-width: 768px) {
   .nav_logo {
     height: 18px;

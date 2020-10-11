@@ -8,6 +8,9 @@
 } */
 
 @media all and (max-width: 900px) {
+  body {
+    letter-spacing: 2px;
+  }
   #Title .dl-btns {
     position: absolute;
     top: 26vw;
@@ -26,6 +29,10 @@
   #Information > .about-mimekom {
     height: 55vw;
   }
+  #Information .about-mimekom .lg-text {
+    font-size: 1.25rem;
+  }
+
   #Information .certificate-text {
     position: absolute;
     top: 8vw;
