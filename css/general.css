@@ -32,10 +32,11 @@ body {
   display: none;
 }
 #Footer .contact-btns {
-  margin-top: 4vw;
-  margin-left: 2vw;
+  position: relative;
+  top: 3vw;
+  left: 2vw;
   opacity: 60%;
-  z-index: 50;
+  z-index: 99;
 }
 #Footer .footer-btn {
   margin: 1vw 1.5vw;
@@ -45,8 +46,9 @@ body {
 }
 #Footer .right-stuff {
   position: relative;
-  bottom: 8vw;
+  bottom: 4vw;
   right: 2vw;
+  float: right;
   text-align: right;
   margin: 2vw 2vw 0 0;
   opacity: 60%;
