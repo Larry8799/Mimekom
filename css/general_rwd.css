@@ -4,76 +4,77 @@
 @media all and (max-width:1300px){
 } */
 
-@media all and (max-width:900px){
-    #Footer {
-        height: 22vw;
-    }
+@media all and (max-width: 900px) {
+  #Footer {
+    height: 22vw;
+  }
 }
 
-@media all and (max-width:767px){
-    /* for mobile */
-    .nav-logo{
-        height: 5rem;
-    }
-    .lg-text{
-        line-height: 2.5rem;
-    }
-    #mainNav{
-        height: 13vw;
-        background-color:#022142;
-    }
-    #mainNav .navbar-nav{
-        top: 13vw;
-    }
-    #mainNav .nav-item .md-text{
-        font-size: 2.3rem;
-        line-height: 3.8rem;
-    }
-    #mainNav .nav-link-btn {
-        color: #022142 !important;
-        background-color: white;
-    }
+@media all and (max-width: 767px) {
+  /* for mobile */
+  .nav-logo {
+    height: 5rem;
+  }
+  .lg-text {
+    line-height: 2.5rem;
+  }
+  #mainNav {
+    height: 13vw;
+    background-color: #022142;
+  }
+  #mainNav .navbar-nav {
+    top: 13vw;
+  }
+  #mainNav .nav-item .md-text {
+    font-size: 2.3rem;
+    line-height: 3.8rem;
+  }
+  #mainNav .nav-link-btn {
+    color: #022142 !important;
+    background-color: white;
+  }
 
-    #Footer{
-        height: 40vw;
-        padding-top: 10vw;
-    }
-    #Footer .mobile{
-        margin-top: 5vw;
-        display: block;
-    }
-    #Footer .md-text{
-        display: none;
-    }
-    #Footer .contact-btns{
-        display: none;
-    }
-    #Footer .right-stuff{
-        position: relative;
-        top: 0vw;
-        margin-right: 0vw;
-        text-align: center;
-        opacity: 80%;
-    }
-    #Footer .icon1{
-        width: 8vw;
-        height: 8vw;
-        margin-right: 5vw;
-        display: inline-block;
-    }
-    #Footer .icon2{
-        width: 8vw;
-        height: 8vw;
-        display: inline-block;
-    }
+  #Footer {
+    height: 40vw;
+    padding-top: 10vw;
+  }
+  #Footer .mobile {
+    margin-top: 5vw;
+    display: block;
+  }
+  #Footer .md-text {
+    display: none;
+  }
+  #Footer .contact-btns {
+    display: none;
+  }
+  #Footer .right-stuff {
+    position: relative;
+    top: 0vw;
+    margin-right: 0vw;
+    float: none;
+    text-align: center;
+    opacity: 80%;
+  }
+  #Footer .icon1 {
+    width: 8vw;
+    height: 8vw;
+    margin-right: 5vw;
+    display: inline-block;
+  }
+  #Footer .icon2 {
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
+  }
 }
-@media all and (max-width:539px){
-    #mainNav{
-        height: 18vw;
-    }
-    #mainNav .navbar-nav{
-        top: 18vw;
-    }
+@media all and (max-width: 539px) {
+  #mainNav {
+    height: 18vw;
+  }
+  #mainNav .navbar-nav {
+    top: 18vw;
+  }
 }
 /* @media all and (min-width:1501px){
 } */
