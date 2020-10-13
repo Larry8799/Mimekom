@@ -297,7 +297,9 @@
   #Information .about-text .sm-title {
     font-size: 1.5rem;
     margin-top: 2rem;
-    color: white;
+  }
+  #Information .certificate-text-mobile .md-title {
+    line-height: 3.5rem;
   }
   #Feature .light-block {
     height: 160vw;
@@ -306,19 +308,45 @@
     height: 160vw;
   }
   #Feature .block-mobile .phone1 {
-    margin-top: 40vw;
+    margin-top: 43vw;
   }
   #Feature .block-mobile .phone2 {
-    margin-top: 40vw;
+    margin-top: 43vw;
   }
   #Feature .block-mobile .phone3 {
-    margin-top: 40vw;
+    margin-top: 43vw;
   }
   #Contact-us .block-mobile {
     height: 100vw;
   }
   #Contact-us .sm-title {
     font-size: 1.8rem;
+  }
+}
+@media all and (max-width: 410px) {
+  #Information {
+    height: 246vw;
+  }
+  #Information > .about-mimekom {
+    height: 100vw;
+  }
+  #Information .certificate-text-mobile .md-title {
+    line-height: 3.2frem;
+  }
+  #Feature .light-block {
+    height: 170vw;
+  }
+  #Feature .dark-block {
+    height: 170vw;
+  }
+  #Feature .block-mobile .phone1 {
+    margin-top: 53vw;
+  }
+  #Feature .block-mobile .phone2 {
+    margin-top: 53vw;
+  }
+  #Feature .block-mobile .phone3 {
+    margin-top: 53vw;
   }
 }
 /* @media all and (min-width:1501px){
