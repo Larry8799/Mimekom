@@ -34,7 +34,7 @@
 }
 .nav-item .nav-btn-custom {
   background-color: transparent;
-  color: #c9ac82 !important;
+  color: #c9ac82;
   padding: 0.5rem 1rem !important;
   border-style: none;
 }
@@ -80,6 +80,9 @@ nav > .container {
 }
 .nav-link:hover {
   color: #c9ac82;
+}
+.nav-item .nav-btn-custom:hover {
+  color: white;
 }
 .nav-link.nav-link-btn:hover {
   border-radius: 5px;
