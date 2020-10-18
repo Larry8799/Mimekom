@@ -23,7 +23,7 @@ def output():
     f.write("var data = [\n")
     for row in DATA:
         f.write("\t{\n")
-        f.write(f"\t\t\"{LABEL[0]}\": \"{int(row[0]) + 1}\",\n")
+        f.write(f"\t\t\"{LABEL[0]}\": \"{row[0]}\",\n")
         f.write(f"\t\t\"{LABEL[1]}\": \"{row[1]}\",\n")
         f.write(f"\t\t\"{LABEL[2]}\": \"{row[2]}\",\n")
         f.write(f"\t\t\"{LABEL[3]}\": {row[3]},\n")
