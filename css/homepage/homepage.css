@@ -390,6 +390,16 @@
   background-color: #021142;
   margin-right: 5vw;
 }
+#Contact-us .btn1:hover {
+  background-color: rgba(2, 17, 66, 0.8);
+}
 #Contact-us .btn2 {
   background-color: #324583;
+}
+#Contact-us .btn2:hover {
+  background-color: rgba(50, 69, 131, 0.8);
+}
+#Contact-us .btn a {
+  color: white;
+  text-decoration: none;
 }
