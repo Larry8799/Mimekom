@@ -2,9 +2,18 @@
 <html>
 
 <head>
-    <title>faq</title>
+    <title>秘密通 - FAQ</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180817405-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180817405-1');
+    </script>
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!-- font-awesome for icon use -->
@@ -51,7 +60,7 @@
                         <a class="nav-link md-text" href="faq.html">常見問題</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-btn md-text" href="free.html" target="_blank">免費體驗</a>
+                        <a class="nav-link nav-link-btn md-text" href="free.html">免費體驗</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-btn-custom md-text" id="dropdownMenuButton"
@@ -103,9 +112,95 @@
                         <p class="lg-text">
                             請確認是否有按照說明書的步驟安裝安全晶片。
                         </p>
+                        <!-- <div class="faq-img"></div>
                         <div class="faq-img"></div>
-                        <div class="faq-img"></div>
-                        <div class="faq-img"></div>
+                        <div class="faq-img"></div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="item">
+                    <div class="question">
+                        <p class="sm-title">無法下載晶片管理程式與密ME通?</p>
+                        <i class="fa md-title fa-plus"></i>
+                        <i class="fa md-title fa-minus"></i>
+                    </div>
+                    <div class="answer">
+                        <p class="lg-text">
+                            請確保用戶使用Google引擎搜尋網址。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="item">
+                    <div class="question">
+                        <p class="sm-title">無法掃描QR code?</p>
+                        <i class="fa md-title fa-plus"></i>
+                        <i class="fa md-title fa-minus"></i>
+                    </div>
+                    <div class="answer">
+                        <p class="lg-text">
+                            請確認使用說明書上同樣的掃描器。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="item">
+                    <div class="question">
+                        <p class="sm-title">第一次原始PIN碼是甚麼?</p>
+                        <i class="fa md-title fa-plus"></i>
+                        <i class="fa md-title fa-minus"></i>
+                    </div>
+                    <div class="answer">
+                        <p class="lg-text">
+                            第一次使用，請輸入PIN碼111111。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="item">
+                    <div class="question">
+                        <p class="sm-title">為何要關閉電池效能最佳化等功能?</p>
+                        <i class="fa md-title fa-plus"></i>
+                        <i class="fa md-title fa-minus"></i>
+                    </div>
+                    <div class="answer">
+                        <p class="lg-text">
+                            因為讓“未使用的應用程式進入休眠”“自動禁用未使用的應用程式”或“電池效能最佳化”等應用設置關閉，才能夠讓安全檢測持續在後台運作。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="item">
+                    <div class="question">
+                        <p class="sm-title">為何本軟體耗電量較快?</p>
+                        <i class="fa md-title fa-plus"></i>
+                        <i class="fa md-title fa-minus"></i>
+                    </div>
+                    <div class="answer">
+                        <p class="lg-text">
+                            本軟體因系統提供安全檢測機制，因此使用時電量消耗較快。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="item">
+                    <div class="question">
+                        <p class="sm-title">不同Android 版本數據模式中關閉節省模式的位置</p>
+                        <i class="fa md-title fa-plus"></i>
+                        <i class="fa md-title fa-minus"></i>
+                    </div>
+                    <div class="answer">
+                        <p class="lg-text">
+                            Android 7.0請從應用與權限中，點選應用管理，打開密ME通軟體的流量統計，開啟數據使用不設限。<br>
+                            Android 8.0請從數據使用量內關閉數據節省模式。<br>
+                            Android 9.0請從應用程式設定打開密ME通數據使用與WiFi使用。<br>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -352,9 +447,9 @@
     <!-- footer -->
     <div id="Footer">
         <div class="contact-btns">
-            <a class="lg-text footer_icon footer-btn js-scroll-trigger" href="#Information">關於我們</a>
-            <a class="lg-text footer-btn js-scroll-trigger" href="#Feature">特色功能</a>
-            <a class="lg-text footer-btn js-scroll-trigger" href="#Contact-us">聯絡我們</a>
+            <a class="lg-text footer_icon footer-btn js-scroll-trigger" href="index.html#Information">關於我們</a>
+            <a class="lg-text footer-btn js-scroll-trigger" href="index.html#Feature">特色功能</a>
+            <a class="lg-text footer-btn js-scroll-trigger" href="index.html#Contact-us">聯絡我們</a>
             <a class="lg-text footer-btn" href="news.html">最新消息</a>
             <a class="lg-text footer-btn" href="faq.html">常見問題</a>
         </div>

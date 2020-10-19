@@ -22,7 +22,7 @@ function contentPreprocess(s) {
     if (s.Content.includes('<img>')) {
         var str = ""
         var text_arr = s.Content.split('<img>')
-        for (var i = 0; i < text_arr.length; i++) {
+        for (var i = 1; i < text_arr.length; i++) {
             str = str.concat(text_arr[i])
         }
         return str
