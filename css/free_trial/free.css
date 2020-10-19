@@ -80,7 +80,19 @@ body {
   padding: 1.7vw 10vw;
   color: white;
 }
-#Main .question {
+#Main .fa {
+  color: #545454;
+}
+#Main .item .question .fa.fa-minus {
+  display: none;
+}
+#Main .item.jquery-accordion-active .fa.fa-minus {
+  display: block;
+}
+#Main .item.jquery-accordion-active .fa.fa-plus {
+  display: none;
+}
+#Main .item .question {
   background-color: rgb(230, 230, 230);
   border: #8d8d8d 1px;
   border-style: solid;
@@ -88,12 +100,23 @@ body {
   padding: 0 2vw;
   width: 100%;
   height: 6vw;
+  /* for accrodian */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 #Main .question p {
   display: inline-block;
   line-height: 6vw;
 }
-#Main .d-arrow {
+#Main .answer {
+  border: #8d8d8d 1px;
+  border-style: none solid solid solid;
+  padding: 1vw 2vw;
+  display: none;
+}
+/* #Main .d-arrow {
   background-image: url("../../img/free-trial/icon4.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -102,9 +125,4 @@ body {
   margin-top: 1.5vw;
   display: inline-block;
   float: right;
-}
-#Main .answer {
-  border: #8d8d8d 1px;
-  border-style: none solid solid solid;
-  padding: 1vw 2vw;
-}
+} */

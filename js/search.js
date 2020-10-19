@@ -22,7 +22,7 @@ function contentPreprocess(s) {
     if (s.Content.includes('<img>')) {
         var str = ""
         var text_arr = s.Content.split('<img>')
-        for (var i = 0; i < text_arr.length; i++) {
+        for (var i = 1; i < text_arr.length; i++) {
             str = str.concat(text_arr[i])
         }
         return str
@@ -89,6 +89,11 @@ function newLi(s) {
     m_content.setAttribute("class", "md-text demo-text-m")
     m_content.innerHTML = contentPreprocess(s).substring(0, 70) + '...'
     texts.appendChild(m_content)
+    // mobile-version content mini demo
+    var mini_content = document.createElement("p")
+    mini_content.setAttribute("class", "md-text demo-text-mini")
+    mini_content.innerHTML = contentPreprocess(s).substring(0, 40) + '...'
+    texts.appendChild(mini_content)
     return node
 }
 
@@ -109,9 +114,10 @@ function loadPage() {
     for (var i = 0; i < data.length; i++) {
         if (data[i].Title.includes(keyword) || data[i].Tags.includes(keyword)) {
             keyData.push(data[i])
-            console.log("find" + data[i].Title)
+            // console.log("find" + data[i].Title)
         }
     }
+    keyData.reverse()
 
     nowList = []
 

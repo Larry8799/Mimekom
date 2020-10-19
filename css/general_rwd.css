@@ -4,76 +4,98 @@
 @media all and (max-width:1300px){
 } */
 
-@media all and (max-width:900px){
-    #Footer {
-        height: 22vw;
-    }
+@media all and (max-width: 900px) {
+  #Footer {
+    height: 22vw;
+  }
+  .modal-dialog {
+    max-width: 700px;
+  }
 }
 
-@media all and (max-width:767px){
-    /* for mobile */
-    .nav-logo{
-        height: 5rem;
-    }
-    .lg-text{
-        line-height: 2.5rem;
-    }
-    #mainNav{
-        height: 13vw;
-        background-color:#022142;
-    }
-    #mainNav .navbar-nav{
-        top: 13vw;
-    }
-    #mainNav .nav-item .md-text{
-        font-size: 2.3rem;
-        line-height: 3.8rem;
-    }
-    #mainNav .nav-link-btn {
-        color: #022142 !important;
-        background-color: white;
-    }
+@media all and (max-width: 767px) {
+  /* for mobile */
+  .nav-logo {
+    height: 5rem;
+  }
+  .lg-text {
+    line-height: 2.5rem;
+  }
+  #mainNav {
+    height: 13vw;
+    background-color: #022142;
+  }
+  #mainNav .navbar-nav {
+    top: 13vw;
+  }
+  #mainNav .nav-item .md-text {
+    font-size: 2.3rem;
+    line-height: 3.8rem;
+  }
+  #mainNav .nav-link-btn {
+    color: #022142 !important;
+    background-color: white;
+  }
 
-    #Footer{
-        height: 40vw;
-        padding-top: 10vw;
-    }
-    #Footer .mobile{
-        margin-top: 5vw;
-        display: block;
-    }
-    #Footer .md-text{
-        display: none;
-    }
-    #Footer .contact-btns{
-        display: none;
-    }
-    #Footer .right-stuff{
-        position: relative;
-        top: 0vw;
-        margin-right: 0vw;
-        text-align: center;
-        opacity: 80%;
-    }
-    #Footer .icon1{
-        width: 8vw;
-        height: 8vw;
-        margin-right: 5vw;
-        display: inline-block;
-    }
-    #Footer .icon2{
-        width: 8vw;
-        height: 8vw;
-        display: inline-block;
-    }
+  #Footer {
+    height: 40vw;
+    padding-top: 10vw;
+  }
+  #Footer .mobile {
+    margin-top: 5vw;
+    display: block;
+  }
+  #Footer .md-text {
+    display: none;
+  }
+  #Footer .contact-btns {
+    display: none;
+  }
+  #Footer .right-stuff {
+    position: relative;
+    top: 0vw;
+    margin-right: 0vw;
+    float: none;
+    text-align: center;
+    opacity: 80%;
+  }
+  #Footer .icon1 {
+    width: 8vw;
+    height: 8vw;
+    margin-right: 5vw;
+    display: inline-block;
+  }
+  #Footer .icon2 {
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
+  }
+  .modal .close {
+    font-size: 3rem;
+  }
+  .modal button {
+    font-size: 2rem;
+  }
+  .modal-dialog {
+    width: auto;
+    margin: 3rem;
+  }
+  .modal-footer {
+    padding: 6vw;
+  }
+  .modal-footer button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 1%);
+  }
 }
-@media all and (max-width:539px){
-    #mainNav{
-        height: 18vw;
-    }
-    #mainNav .navbar-nav{
-        top: 18vw;
-    }
+@media all and (max-width: 539px) {
+  #mainNav {
+    height: 18vw;
+  }
+  #mainNav .navbar-nav {
+    top: 18vw;
+  }
 }
 /* @media all and (min-width:1501px){
 } */

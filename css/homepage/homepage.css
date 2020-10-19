@@ -70,8 +70,6 @@
   position: fixed;
   top: 60vh;
   right: 0vw;
-  height: 16vw;
-  width: 4vw;
   text-align: center;
   z-index: 50;
   letter-spacing: 0;
@@ -83,6 +81,9 @@
   background-color: #021142;
   color: white;
   height: 12vw;
+  min-height: 8rem;
+  max-height: 10rem;
+  width: 4vw;
   padding: 1vw;
   text-decoration: none;
   display: flex;

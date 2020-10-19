@@ -20,7 +20,7 @@
   transition: background-color 0.4s ease;
 }
 .nav-link {
-  color: white !important;
+  color: white;
   text-align: center;
   margin: auto 5px;
   letter-spacing: 2px;
@@ -34,7 +34,7 @@
 }
 .nav-item .nav-btn-custom {
   background-color: transparent;
-  color: #c9ac82 !important;
+  color: #c9ac82;
   padding: 0.5rem 1rem !important;
   border-style: none;
 }
@@ -79,18 +79,26 @@ nav > .container {
   background-color: #ffffff;
 }
 .nav-link:hover {
+  color: #c9ac82;
+}
+.nav-item .nav-btn-custom:hover {
+  color: white;
+}
+.nav-link.nav-link-btn:hover {
   border-radius: 5px;
   background-color: rgba(256, 256, 256, 0.3);
 }
 
 /* medias */
 @media (max-width: 900px) {
+  nav > .container {
+    padding-left: 1%;
+  }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0;
     padding-right: 0;
   }
 }
-
 @media (max-width: 768px) {
   .nav_logo {
     height: 18px;

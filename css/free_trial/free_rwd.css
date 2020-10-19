@@ -10,9 +10,128 @@
   }
 }
 
-/* @media all and (max-width:767px){
+@media all and (max-width: 767px) {
+  #Main {
+    margin-top: 13vw;
+    padding: 5vw 10vw;
+  }
+  #Main .lg-title {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 3vw;
+  }
+  #Main .subtitle {
+    padding: 3vw 3vw 3vw 5vw;
+  }
+  #Main .md-title {
+    font-size: 3rem;
+  }
+  #Main .xl-text {
+    font-size: 2.5rem;
+  }
+  #Main .lg-text {
+    font-size: 2.2rem;
+  }
+  #Main .md-text {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  #Main .icons {
+    margin: 5vw 0;
+  }
+  #Main .icon {
+    margin: 0;
+  }
+  #Main .icon1 {
+    height: 20vw;
+  }
+  #Main .icon2 {
+    height: 20vw;
+  }
+  #Main .icon3 {
+    width: 10vw;
+    height: 10vw;
+    margin: 0 3vw 5vw 3vw;
+  }
+
+  #Main .text {
+    width: 100%;
+    padding: 5vw 0;
+    margin: 0;
+  }
+  #Main .text-dark {
+    background-color: rgba(228, 228, 228, 0.8);
+  }
+  #Main .b-dot {
+    background-color: transparent;
+    background-size: cover;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 2vw;
+    margin: 0 3vw;
+  }
+  #Main .steps .lg-text {
+    margin: 0;
+    width: 70vw;
+    line-height: 3.3rem;
+  }
+  #Main .dot1 {
+    background-image: url("../../img/free-trial/num1.png");
+  }
+  #Main .dot2 {
+    background-image: url("../../img/free-trial/num2.png");
+  }
+  #Main .dot3 {
+    background-image: url("../../img/free-trial/num3.png");
+  }
+  #Main .dot4 {
+    background-image: url("../../img/free-trial/num4.png");
+  }
+
+  #Main .trial {
+    margin: 10vw 0;
+  }
+  #Main .trial-btn {
+    padding: 3vw 15vw;
+  }
+
+  #Main .question {
+    margin-top: 3vw;
+    padding: 0 4vw;
+    height: 10vw;
+  }
+  #Main .question p {
+    line-height: 10vw;
+  }
+  #Main .d-arrow {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2.5vw;
+  }
+  #Main .answer {
+    padding: 3vw 4vw;
+  }
 }
-@media all and (max-width:539px){
-} */
+@media all and (max-width: 539px) {
+  #Main {
+    margin-top: 18vw;
+  }
+  #Main .md-title {
+    font-size: 2.8rem;
+  }
+  #Main .xl-text {
+    font-size: 2.2rem;
+  }
+  #Main .lg-text {
+    font-size: 1.8rem;
+  }
+  #Main .md-text {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
+  #Main .icons .lg-text {
+    font-size: 1.6rem;
+  }
+}
 /* @media all and (min-width:1501px){
 } */
