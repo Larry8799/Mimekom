@@ -74,6 +74,39 @@ hide_dropdown(1);
 
 })(jQuery); // End of use strict
 
+//To the top animatio
+(function($) {
+    "use strict"; // Start of use strict
+
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger2[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                // 把hamburger變回來
+                $('#hamburger_icon').removeClass("is-active");
+                hamburger_clicked=0;
+                hide_dropdown(0);
+                $('html, body').animate({
+                    scrollTop: (target.offset().top - 56)
+                }, 100, "easeInOutExpo");
+
+            return false;
+            }
+        }
+    });
+
+    // Closes responsive menu when a scroll trigger link is clicked
+    $('.js-scroll-trigger2').click(function() {
+        $('.navbar-collapse').collapse('hide');
+        
+    });
+    
+    
+
+})(jQuery); // End of use strict
+
 window.addEventListener("scroll", function(event) {
         var top = this.scrollY,
             left =this.scrollX;

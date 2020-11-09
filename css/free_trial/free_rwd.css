@@ -63,7 +63,7 @@
     background-color: rgba(228, 228, 228, 0.8);
   }
   #Main .b-dot {
-    background-color: transparent;
+    /* background-color: transparent; */
     background-size: cover;
     width: 4vw;
     height: 4vw;
