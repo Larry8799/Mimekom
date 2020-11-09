@@ -22,7 +22,8 @@ body {
 }
 
 #Main {
-  background-image: url("../../img/faq/bg1.png");
+  /* background-image: url("../../img/faq/bg1.png"); */
+  background-color: #f2f2f2;
   background-repeat: repeat;
   width: 100%;
   padding: 5vw 15vw;
@@ -66,7 +67,25 @@ body {
   padding-bottom: 5vh;
   display: none;
 }
-#Main .item .faq-img {
+#Main .item .faq-img1 {
+  background-image: url("../../img/faq/demo_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 27%;
+  height: 30vw;
+  margin: 2vw 2% 0 0;
+  display: inline-block;
+}
+#Main .item .faq-img2 {
+  background-image: url("../../img/faq/demo_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 27%;
+  height: 30vw;
+  margin: 2vw 2% 0 0;
+  display: inline-block;
+}
+#Main .item .faq-img3 {
   background-image: url("../../img/faq/demo_img.png");
   background-size: contain;
   background-repeat: no-repeat;
