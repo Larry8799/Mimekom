@@ -1,405 +1,431 @@
 #Title .carousel-item {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-bottom: 10vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 10vw;
 }
 #Title .bg1 {
-  background-image: url("../../img/homepage/title_bg_01.png");
+    background-image: url("../../img/homepage/title_bg_01.png");
 }
 #Title .bg2 {
-  background-image: url("../../img/homepage/title_bg_02.png");
+    background-image: url("../../img/homepage/title_bg_02.png");
 }
 #Title .bg3 {
-  background-image: url("../../img/homepage/title_bg_03.png");
+    background-image: url("../../img/homepage/title_bg_03.png");
 }
 #Title .bg4 {
-  background-image: url("../../img/homepage/title_bg_04.png");
+    background-image: url("../../img/homepage/title_bg_04.png");
 }
 #Title .bg5 {
-  background-image: url("../../img/homepage/title_bg_05.png");
+    background-image: url("../../img/homepage/title_bg_05.png");
 }
 /* #Title .title-bg{
 	width: 100%;
 	position: fixed;
 } */
 #Title .container {
-  padding-top: 7%;
-  padding-left: 7vw;
-  float: left;
-  text-align: left;
-  max-width: 100%;
+    padding-top: 7%;
+    padding-left: 7vw;
+    float: left;
+    text-align: left;
+    max-width: 100%;
 }
 #Title .dl-btns {
-  position: absolute;
-  top: 22vw;
-  left: 7vw;
-  display: inline;
+    position: absolute;
+    top: 22vw;
+    left: 7vw;
+    display: inline;
 }
 #Title .dl-btns .dl-btn {
-  width: 10em;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  border: 0.6px solid rgb(256, 256, 256, 0.5);
-  padding: 0rem 0.75rem;
+    width: 10em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 0.6px solid rgb(256, 256, 256, 0.5);
+    padding: 0rem 0.75rem;
 }
 #Title .dl-btns .lg-text {
-  float: left;
-  font-weight: lighter;
-  padding-right: 1rem;
-  letter-spacing: 1px;
+    float: left;
+    font-weight: lighter;
+    padding-right: 1rem;
+    letter-spacing: 1px;
 }
 #Title .dl-btns img {
-  position: relative;
-  top: 0.7em;
-  float: right;
-  height: 1.3em;
+    position: relative;
+    top: 0.7em;
+    float: right;
+    height: 1.3em;
 }
 #Title .lg-title {
-  font-weight: bold;
-  color: white;
+    font-weight: bold;
+    color: white;
 }
 #Title .lg-text {
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-  opacity: 90%;
-  color: white;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    opacity: 90%;
+    color: white;
 }
 
 #Return-top {
-  position: fixed;
-  top: 60vh;
-  right: 0vw;
-  text-align: center;
-  z-index: 50;
-  letter-spacing: 0;
+    position: fixed;
+    top: 60vh;
+    right: 0vw;
+    text-align: center;
+    z-index: 50;
+    letter-spacing: 0;
 }
 .at-top {
-  display: none;
+    display: none;
 }
 #Return-top .upper-part {
-  background-color: #021142;
-  color: white;
-  height: 12vw;
-  min-height: 8rem;
-  max-height: 10rem;
-  width: 4vw;
-  padding: 1vw;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
+    background-color: #021142;
+    color: white;
+    height: 12vw;
+    min-height: 8rem;
+    max-height: 10rem;
+    width: 4vw;
+    padding: 1vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 #Return-top .lower-part {
-  background-color: #c9ac82;
-  color: #022142;
-  height: 4vw;
-  width: 4vw;
-  padding: 0.4vw;
-  text-decoration: none;
-  display: block;
-  text-align: center;
+    background-color: #c9ac82;
+    color: #022142;
+    height: 4vw;
+    width: 4vw;
+    padding: 0.4vw;
+    text-decoration: none;
+    display: block;
+    text-align: center;
 }
 #Return-top .lower-part .img-arrow {
-  height: 70%;
-  width: 70%;
+    height: 70%;
+    width: 70%;
 }
 
 #Information {
-  background-image: url("../../img/homepage/bg1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  width: 100%;
-  height: 116vw;
-  padding-top: 8%;
+    background-image: url("../../img/homepage/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 116vw;
+    padding-top: 8%;
 }
 #Information > .about-mimekom {
-  background-color: #333333;
-  float: center;
-  width: 88%;
-  margin-left: 6%;
-  margin-right: 6%;
-  height: 40vw;
+    background-color: #333333;
+    float: center;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 45vw;
+}
+#Information .about-mimekom .play-video {
+    display: flex;
+    padding: 1vw;
+    margin-top: 2vw;
+    width: 15vw;
+    border: solid #c9ac82 1px;
+    justify-content: center;
+}
+#Information .about-mimekom .play-video:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#Information .about-mimekom .play-btn {
+    background-image: url("../../img/homepage/play_btn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 1vw;
+    width: 2vw;
+    height: 2vw;
 }
 #Information .about-mimekom .content-mobile {
-  display: none;
+    display: none;
 }
 #Information .about-image {
-  background-image: url("../../img/homepage/information_img1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 6vw;
-  left: 14vw;
-  width: 22vw;
-  height: 36vw;
+    background-image: url("../../img/homepage/information_img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6vw;
+    left: 14vw;
+    width: 22vw;
+    height: 41vw;
 }
 #Information .about-text {
-  position: absolute;
-  top: 15vw;
-  left: 40vw;
-  width: 40vw;
-  height: 46vw;
-  color: white;
-  display: block;
-  text-align: left;
+    position: absolute;
+    top: 15vw;
+    left: 40vw;
+    width: 40vw;
+    height: 46vw;
+    color: white;
+    display: block;
+    text-align: left;
 }
 #Information .about-text .sm-title {
-  color: #c9ac82;
+    color: #c9ac82;
 }
 #Information .line {
-  width: 10vw;
-  height: 1px;
-  border-top: solid white 1px;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+    width: 10vw;
+    height: 1px;
+    border-top: solid white 1px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 #Information > .certificate {
-  float: center;
-  width: 88%;
-  margin-left: 6%;
-  margin-right: 6%;
-  height: 60vw;
+    float: center;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 60vw;
 }
 #Information .certificate-img {
-  background-image: url("../../img/homepage/certificate.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 75vw;
-  left: 5vw;
-  width: 36vw;
-  height: 27vw;
-  z-index: 10;
+    background-image: url("../../img/homepage/certificate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 75vw;
+    left: 5vw;
+    width: 36vw;
+    height: 27vw;
+    z-index: 10;
 }
 #Information .phone {
-  background-image: url("../../img/homepage/phone1.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 68vw;
-  left: 20vw;
-  width: 72.5vw;
-  height: 40vw;
-  z-index: 5;
+    background-image: url("../../img/homepage/phone1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 68vw;
+    left: 20vw;
+    width: 72.5vw;
+    height: 40vw;
+    z-index: 5;
 }
 #Information .certificate-text-mobile {
-  display: none;
+    display: none;
 }
 #Information .certificate-text {
-  /* background-color: violet; */
-  position: absolute;
-  top: 12vw;
-  left: 25vw;
-  width: 42vw;
-  height: 20vw;
-  display: block;
-  color: white;
-  z-index: 10;
+    /* background-color: violet; */
+    position: absolute;
+    top: 12vw;
+    left: 25vw;
+    width: 42vw;
+    height: 20vw;
+    display: block;
+    color: white;
+    z-index: 10;
 }
 #Information .phone .lg-text {
-  margin-top: 2vw;
+    margin-top: 2vw;
 }
 
 #Feature .block-mobile {
-  display: none;
+    display: none;
 }
 #Feature .light-block {
-  background-color: #253361;
-  width: 100%;
-  height: 50vw;
+    background-color: #253361;
+    width: 100%;
+    height: 50vw;
 }
 #Feature .dark-block {
-  background-color: #021142;
-  width: 100%;
-  height: 50vw;
+    background-color: #021142;
+    width: 100%;
+    height: 50vw;
 }
 #Feature .block1 .block .phone1 {
-  background-image: url("../../img/homepage/phone2.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 7vw;
-  margin-left: 5vw;
-  width: 21vw;
-  height: 36vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/phone2.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 7vw;
+    margin-left: 5vw;
+    width: 21vw;
+    height: 36vw;
+    display: inline-block;
 }
 #Feature .block1 .block .phone2 {
-  background-image: url("../../img/homepage/phone2.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 7vw;
-  width: 21vw;
-  height: 36vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/phone2.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 7vw;
+    width: 21vw;
+    height: 36vw;
+    display: inline-block;
 }
 #Feature .block1 .block .text {
-  position: relative;
-  top: -32vw;
-  left: 50vw;
-  width: 38vw;
-  height: 40vw;
-  color: white;
+    position: relative;
+    top: -32vw;
+    left: 50vw;
+    width: 38vw;
+    height: 40vw;
+    color: white;
 }
 #Feature .block1 .icon {
-  background-image: url("../../img/homepage/private_chat_icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 2vw;
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/private_chat_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
 }
 #Feature .block2 .block .phone1 {
-  background-image: url("../../img/homepage/phone2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -32vw;
-  left: 70vw;
-  width: 21vw;
-  height: 36vw;
+    background-image: url("../../img/homepage/phone2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -32vw;
+    left: 70vw;
+    width: 21vw;
+    height: 36vw;
 }
 #Feature .block2 .block .text {
-  position: relative;
-  top: 10vw;
-  left: 10vw;
-  width: 38vw;
-  height: 40vw;
-  color: white;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    width: 38vw;
+    height: 40vw;
+    color: white;
 }
 #Feature .block2 .icon {
-  background-image: url("../../img/homepage/protect_icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 2vw;
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/protect_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
 }
 #Feature .block3 .block .phone1 {
-  background-image: url("../../img/homepage/phone2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 7vw;
-  margin-left: 15vw;
-  width: 21vw;
-  height: 36vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/phone2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 7vw;
+    margin-left: 15vw;
+    width: 21vw;
+    height: 36vw;
+    display: inline-block;
 }
 #Feature .block3 .block .text {
-  position: relative;
-  top: -32vw;
-  left: 50vw;
-  width: 38vw;
-  height: 40vw;
-  color: white;
+    position: relative;
+    top: -32vw;
+    left: 50vw;
+    width: 38vw;
+    height: 40vw;
+    color: white;
 }
 #Feature .block3 .icon {
-  background-image: url("../../img/homepage/screenshot_icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 2vw;
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/screenshot_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
 }
 #Feature .block4 .block .phone1 {
-  background-image: url("../../img/homepage/phone2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -32vw;
-  left: 70vw;
-  width: 21vw;
-  height: 36vw;
+    background-image: url("../../img/homepage/phone2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -32vw;
+    left: 70vw;
+    width: 21vw;
+    height: 36vw;
 }
 #Feature .block4 .block .text {
-  position: relative;
-  top: 10vw;
-  left: 10vw;
-  width: 38vw;
-  height: 40vw;
-  color: white;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    width: 38vw;
+    height: 40vw;
+    color: white;
 }
 #Feature .block4 .icon {
-  background-image: url("../../img/homepage/speed_text_icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 2vw;
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/speed_text_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
 }
 #Feature .block5 .block .phone1 {
-  background-image: url("../../img/homepage/phone2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 7vw;
-  margin-left: 15vw;
-  width: 21vw;
-  height: 36vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/phone2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 7vw;
+    margin-left: 15vw;
+    width: 21vw;
+    height: 36vw;
+    display: inline-block;
 }
 #Feature .block5 .block .text {
-  position: relative;
-  top: -32vw;
-  left: 50vw;
-  width: 38vw;
-  height: 35vw;
-  color: white;
+    position: relative;
+    top: -32vw;
+    left: 50vw;
+    width: 38vw;
+    height: 35vw;
+    color: white;
 }
 #Feature .block5 .icon {
-  background-image: url("../../img/homepage/group_icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 2vw;
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
+    background-image: url("../../img/homepage/group_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    width: 8vw;
+    height: 8vw;
+    display: inline-block;
 }
 
 #Contact-us .block {
-  background-image: url("../../img/homepage/contact_us_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 35vw;
-  padding-top: 5vw;
-  text-align: center;
+    background-image: url("../../img/homepage/contact_us_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35vw;
+    padding-top: 5vw;
+    text-align: center;
 }
 #Contact-us .block-mobile {
-  display: none;
+    display: none;
 }
 #Contact-us .lg-title {
-  padding-bottom: 1vw;
+    padding-bottom: 1vw;
 }
 #Contact-us .contact-btns {
-  text-align: center;
-  display: inline-block;
+    text-align: center;
+    display: inline-block;
 }
 #Contact-us .btn {
-  margin-top: 2vw;
-  width: 20vw;
-  height: 5vw;
-  border-radius: 1vw;
-  color: whitesmoke;
+    margin-top: 2vw;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 1vw;
+    color: whitesmoke;
 }
 #Contact-us .btn1 {
-  background-color: #021142;
-  margin-right: 5vw;
+    background-color: #021142;
+    margin-right: 5vw;
 }
 #Contact-us .btn1:hover {
-  background-color: rgba(2, 17, 66, 0.8);
+    background-color: rgba(2, 17, 66, 0.8);
 }
 #Contact-us .btn2 {
-  background-color: #324583;
+    background-color: #324583;
 }
 #Contact-us .btn2:hover {
-  background-color: rgba(50, 69, 131, 0.8);
+    background-color: rgba(50, 69, 131, 0.8);
 }
 #Contact-us .btn a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+#Video-link .yt-video {
+    width: 100%;
+    height: 40vw;
 }
