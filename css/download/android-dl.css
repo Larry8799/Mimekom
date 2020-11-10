@@ -1,87 +1,106 @@
-#mainNav{
-    background-color:#022142;
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 
-#Content{
-	background-image: url("../../img/homepage/bg1.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-	width: 100%;
-    height: 70vw;
-    margin-top: 80px;
-    padding-top: 11vw;
-    padding-left: 12vw;
-    padding-right: 12vw;
+#mainNav {
+    background-color: #022142;
+}
+
+#Content {
+    background-image: url("../../img/homepage/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    padding: 5vw;
     text-align: center;
 }
-.title{
+.android {
+    margin-top: 80px;
+}
+.title {
     display: flex;
     align-items: center;
-    margin-bottom: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
 }
-.title .line{
+.title .line {
     background-color: #022142;
     width: 1.5vw;
     height: 4vw;
     display: inline-block;
 }
-.title .lg-title{
+.title .lg-title {
     font-weight: bold;
     margin-left: 2vw;
     margin-bottom: 0;
     display: inline-block;
 }
 
-.steps{
+.steps {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-
-
-
-
-.block{
-    width: 20vw;
+.android .block {
+    width: 16vw;
     height: 30vw;
     text-align: center;
 }
-.block .step-indicator{
-    background-color: #c9ac82;
+.ios .block {
+    width: 20vw;
+    height: 30vw;
     margin: 0 3vw;
+    text-align: center;
+}
+.block .step-indicator {
+    margin: 0 auto;
+    background-color: #c9ac82;
     height: 5vw;
+    width: 16vw;
     color: white;
     margin-bottom: 5vw;
 }
-.block .step-indicator .md-title{
+.block .step-indicator .sm-title {
     line-height: 5vw;
 }
-.block .dl-link{
-    background-image: url("../../img/download/google_play.png");
+.block .dl-link {
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center;
-    width: 20vw;
+    background-position: center;
+    width: 100%;
     height: 7vw;
     display: inline-block;
 }
-.next-block{
-    background-image: url("../../img/download/arrow.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 2vw;
-    width: 4vw;
-    height: 4rem;
+.block .dl-link.sim-img {
+    background-image: url("../../img/download/sim.png");
 }
-.green-icon{
+.block .dl-link.android-dl {
+    background-image: url("../../img/download/google_play.png");
+}
+.block .dl-link.ios-dl {
+    background-image: url("../../img/download/app_store.png");
+    width: 80%;
+}
+
+.next-block {
+    background-image: url("../../img/download/arrow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1.7vw;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+.green-icon {
     background-image: url("../../img/download/tick.png");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 9vw;
     margin-bottom: 2vw;
-    width: 20vw;
+    width: 100%;
     height: 4rem;
     display: block;
 }
