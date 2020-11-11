@@ -30,10 +30,10 @@
     }
 
     #Information {
-        height: 116vw;
+        height: 126vw;
     }
     #Information > .about-mimekom {
-        height: 58vw;
+        height: 63vw;
     }
     #Information .about-image {
         height: 54vw;
@@ -41,7 +41,12 @@
     #Information .about-mimekom .lg-text {
         font-size: 1.25rem;
     }
-
+    #Information .certificate-img {
+        top: 85vw;
+    }
+    #Information .phone {
+        top: 78vw;
+    }
     #Information .certificate-text {
         position: absolute;
         top: 8vw;
@@ -140,7 +145,7 @@
         width: 94%;
         margin-left: 3%;
         margin-right: 3%;
-        height: 75vw;
+        height: 80vw;
     }
     #Information .about-mimekom .play-video {
         margin: 0px auto;
@@ -313,10 +318,10 @@
         margin-top: 18vw;
     }
     #Information {
-        height: 226vw;
+        height: 236vw;
     }
     #Information > .about-mimekom {
-        height: 90vw;
+        height: 98vw;
     }
     #Information .about-text .sm-title {
         font-size: 1.5rem;
@@ -349,10 +354,10 @@
 }
 @media all and (max-width: 410px) {
     #Information {
-        height: 246vw;
+        height: 256vw;
     }
     #Information > .about-mimekom {
-        height: 100vw;
+        height: 110vw;
     }
     #Information .certificate-text-mobile .md-title {
         line-height: 3.2frem;

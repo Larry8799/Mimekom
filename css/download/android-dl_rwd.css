@@ -87,9 +87,11 @@
 }
 @media all and (max-width: 539px) {
     #Content {
-        height: 227vw;
-        margin-top: 13vw;
         padding-top: 15vw;
+    }
+    #Content.android {
+        height: 296vw;
+        margin-top: 13vw;
     }
     .title {
         margin-bottom: 6vw;
