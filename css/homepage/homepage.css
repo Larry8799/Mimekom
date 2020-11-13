@@ -138,6 +138,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
+    margin: auto 0;
     margin-left: 1vw;
     width: 2vw;
     height: 2vw;
